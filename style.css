@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  justify-content: center;
+  align-items: center;
+  font-family: poppins, sans-serif;
+}
+
+body{
+  background: turquoise;
+  
+}
+
+
+.calc{
+  margin-left: 687px;
+  margin-top: 100px;
+
+}
+
+.email{
+  margin-top: 145px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.p1{
+  margin-top: 20px;
+  margin-left: 680px;
+  align-items: center;
+  justify-content: center;
+ 
+
+  
+}
+
+.p2{
+  margin-left: 680px;
+}
+
+.p3{
+  margin-left: 680px;
+}
+
+.p4{
+  margin-left: 680px;
+}
+
+.p5{
+  margin-left: 680px;
+}
+
+.btn1{
+  padding: 15px;
+  padding-right: 19px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn2{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn3{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn4{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn5{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn6{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn7{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn8{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn9{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn0{
+  padding: 15px;
+  color: black;
+  background: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btndot{
+  padding: 15px;
+  color: black;
+  background: tan;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btnplus{
+  padding: 15px;
+  color: black;
+  background: tan;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-right: 25px;
+}
+
+.btnminus{
+  padding: 15px;
+  color: black;
+  background: tan;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-right: 25px;
+}
+
+.btnstar{
+  padding: 15px;
+  color: black;
+  background: tan;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-right: 25px;
+}
+
+.btndivide{
+  padding: 15px;
+  color: black;
+  background: tan;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-right: 27px;
+}
+
+.btnequal{
+  padding: 15px;
+  color: black;
+  background: tan;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+
+.btnclear{
+  padding: 15px;
+  color: black;
+  background: aliceblue;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.display-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: black;
+  background-color: aliceblue;
+  font-size: large;
+  width: 184px;
+  border: 2px solid black;
+  
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <script src="calc.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="container">
+        <h3 class="calc" >Deepu's Calculator</h3>
+        <p class="p1">
+            <input class="display-box" type="text" id="result"/>
+        <button onclick="
+            display('1')
+            calculation += '1';
+            console.log(calculation);
+            " class="btn1" value="1">1
+        </button>
+        <button onclick="
+            display('2')
+            calculation += '2';
+            console.log(calculation);
+            "class="btn2" value="2">2
+        </button>
+        <button onclick="
+            display('3')
+            calculation += '3';
+            console.log(calculation);
+            "class="btn3" value="3">3
+        </button>
+        <button onclick="
+            display(' + ')
+            calculation += ' + ';
+            console.log(calculation);
+            "class="btnplus" value="+">+
+        </button>
+        </p>
+
+        <p class="p2">
+            <button onclick="
+            display('4')
+            calculation += '4';
+            console.log(calculation);
+            "class="btn4" value="4">4
+        </button>
+        <button onclick="
+            display('5')
+            calculation += '5';
+            console.log(calculation);
+            "class="btn5" value="5">5
+        </button>
+        <button onclick="
+            display('6')
+            calculation += '6';
+            console.log(calculation);
+            "class="btn6" value="6">6
+        </button>
+        <button onclick="
+            display(' - ')
+            calculation += ' - ';
+            console.log(calculation);
+            "class="btnminus" value="-">-
+        </button>
+        </p>
+
+        <p class="p3">
+            <button onclick="
+            display('7')
+            calculation += '7';
+            console.log(calculation);
+            "class="btn7" value="7">7
+        </button>
+        <button onclick="
+            display('8')
+            calculation += '8';
+            console.log(calculation);
+            "class="btn8" value="8">8
+        </button>
+        <button onclick="
+            display('9')
+            calculation += '9';
+            console.log(calculation);
+            "class="btn9" value="9">9
+        </button>
+        <button onclick="
+            display(' * ')
+            calculation += ' * ';
+            console.log(calculation);
+            "class="btnstar" value="*">*
+        </button>
+        </p>
+
+        <p class="p4">
+            <button onclick="
+            display('0')
+            calculation += '0';
+            console.log(calculation);
+            "class="btn0" value="0">0
+        </button>
+        <button onclick="
+            display(' . ')
+            calculation += '.';
+            console.log(calculation);
+            "class="btndot" value=".">.
+        </button>
+        <button value='=' onclick="
+            calculate();
+            calculation = eval(calculation);
+            console.log(calculation)
+            "class="btnequal">=
+        </button>
+        <button onclick="
+            display(' / ')
+            calculation += ' / ';
+            console.log(calculation);
+            "class="btndivide" value="/">/
+        </button>
+        </p>
+
+        <p class="p5">
+            <button value='c' onclick="
+                clearScreen()
+                calculation = '';
+                console.log('cleared');
+                "class="btnclear">Clear
+
+            </button>
+        </p>
+        <p class="email" >Email : deepakpoly1980@gmail.com</p>
+    </div>
+    
+
+</body>
+</html>
